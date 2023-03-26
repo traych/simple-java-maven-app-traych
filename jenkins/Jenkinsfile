@@ -11,10 +11,5 @@ pipeline {
                 sh 'touch /home/traych/jenkins/jenkins.txt'
             }
         }
-        stage('Insert content in file') {
-            steps {
-                sh 'echo 'Test from Traych!' > /home/traych/jenkins/jenkins.txt'
-            }
-        }
     }
 }
