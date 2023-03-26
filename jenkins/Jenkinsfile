@@ -3,12 +3,7 @@ pipeline {
     stages {
         stage('Create folder') {
             steps {
-                sh 'mkdir /home/traych/jenkins'
-            }
-        }
-        stage('Create file') {
-            steps {
-                sh 'touch /home/traych/jenkins/jenkins.txt'
+                echo 'Hello World'
             }
         }
     }
